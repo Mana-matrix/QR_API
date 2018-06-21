@@ -1,0 +1,29 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+#chat_panel{
+background: #ffffff;
+  border-radius: 10px;
+  box-shadow: #5e5d5d ;
+  padding: 10px ;
+
+    .me{
+      background: #2a88bd;
+      padding: 3px;
+      border-radius: 5px;
+    }
+    .you{
+      background: #2ab27b;
+      padding: 3px;
+      border-radius: 5px;
+    }
+
+
+}
